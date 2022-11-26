@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/creditcard-validations/static/css/main.a5466d2d.css",
+    "main.js": "/creditcard-validations/static/js/main.c6059110.js",
+    "static/js/787.2fa85f20.chunk.js": "/creditcard-validations/static/js/787.2fa85f20.chunk.js",
+    "static/media/bg-main-desktop.png": "/creditcard-validations/static/media/bg-main-desktop.806e7aa7b4dbc1d78bc3.png",
+    "static/media/bg-card-back.png": "/creditcard-validations/static/media/bg-card-back.23f68fa3aa3d5b33dfc8.png",
+    "static/media/bg-card-front.png": "/creditcard-validations/static/media/bg-card-front.8153e2ca184402a8385f.png",
+    "index.html": "/creditcard-validations/index.html",
+    "static/media/icon-complete.svg": "/creditcard-validations/static/media/icon-complete.8fd757c0c5c44b1d597ca411400e046d.svg",
+    "main.a5466d2d.css.map": "/creditcard-validations/static/css/main.a5466d2d.css.map",
+    "main.c6059110.js.map": "/creditcard-validations/static/js/main.c6059110.js.map",
+    "787.2fa85f20.chunk.js.map": "/creditcard-validations/static/js/787.2fa85f20.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a5466d2d.css",
+    "static/js/main.c6059110.js"
+  ]
+}
