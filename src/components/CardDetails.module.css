@@ -1,0 +1,110 @@
+.form_box{
+ margin: 150px;
+}
+
+.card_info{
+    display:flex;
+    gap:20px;
+}
+
+.box{
+    display:flex;
+    gap:7px;
+}
+
+input{
+    border-radius: 8px;
+    border:1px solid rgb(174, 172, 172);
+    padding:12px;
+}
+
+.name, .number, .date, .year, .cvc_number{
+    display:flex;
+    flex-direction: column;
+    gap:3px;
+    margin-bottom:20px;
+    letter-spacing: 1.5px;
+    color:#21092F;
+}
+
+.cardholder, .card_number{
+    width:330px;
+}
+
+
+.exp_month, .exp_year{
+    max-width:80px;
+}
+
+.cvc{
+    width:140px;
+}
+
+
+
+::placeholder{
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+
+.submit{
+    padding:15px;
+    width:330px;
+    border-radius: 8px;
+    border:none;
+    background-color: #21092F;
+    color:#FFFFFF;
+    letter-spacing: 1.5px;
+     
+    transition: all 0.3s ease-in-out;
+    cursor:pointer;
+    
+}
+
+.submit:hover{
+    box-shadow:3px 3px 5px rgba(7, 7, 7, 0.2);
+}
+
+.error{
+    border:1px solid red;
+}
+
+span{
+    color:red;
+    letter-spacing: 0.1px;
+    
+}
+
+@media screen and (max-width:399px){
+    .form_box{
+      margin:0;
+     padding:70px 20px;
+      
+    }
+
+    .cardholder, .card_number{
+        width:220px;
+    }
+
+    .exp_month, .exp_year{
+        width:60px;
+    }
+    
+    .cvc{
+        width:90px;
+    }
+
+    .box{
+        gap:2px;
+    }
+
+    .card_info{
+        gap:10px;
+    }
+
+
+     .submit{
+        width:230px;
+     }
+
+}

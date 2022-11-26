@@ -1,24 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import Images from "./components/Images";
+import CardDetails from './components/CardDetails'
+import {useState} from 'react';
+import Thanks from "./components/Thanks";
+
+
 
 function App() {
+  const [isVisible, setIsVisible] = useState(false);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+ <>
+ <div className='App'>
+ <Images/>
+ {isVisible?<Thanks/>:<CardDetails setIsVisible={setIsVisible}/>}
+ </div>
+ </>
   );
 }
 

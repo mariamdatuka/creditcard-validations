@@ -1,0 +1,60 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    align-items: center;
+    justify-content: center;
+    margin-left:150px;
+}
+
+h1{
+    letter-spacing:3px;
+    color:#21092F;
+}
+
+p{
+    color:#8F8694;
+    font-size:16px;
+}
+
+.continue{
+    padding:15px;
+    width:330px;
+    margin-top:30px;
+    border-radius: 8px;
+    border:none;
+    background-color: #21092F;
+    color:#FFFFFF;
+    letter-spacing: 1.5px;
+     
+    transition: all 0.3s ease-in-out;
+    cursor:pointer;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.continue:hover{
+    box-shadow:3px 3px 5px rgba(7, 7, 7, 0.2);
+}
+
+@media screen and (max-width:399px){
+    .container{
+  
+        margin-top:70px;
+        width:200px;
+        height:200px;
+        margin-left:50px;
+    }
+
+    h1{
+        font-size:16px;
+    }
+
+   p{
+    font-size:12px
+   }
+
+   .continue{
+    width:220px;
+   }
+}
